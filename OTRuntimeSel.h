@@ -17,3 +17,6 @@ SEL sel_getUid(const char *str);
 
 //Returns a Boolean value that indicates whether two selectors are equal.
 BOOL sel_isEqual(SEL lhs, SEL rhs);
+
+//Returns count of arguments of a given selector.
+int sel_getArgumentsCount(SEL aSelector);
